@@ -1,0 +1,121 @@
+*{
+    line-height: 20px;
+    margin: 0;
+	padding: 0;
+
+}
+.ob
+{
+    height: 50px;
+    text-align: center;
+    line-height: 45px; 
+    vertical-align:middle;
+    color: rgb(187, 12, 203);
+
+    background-color: hotpink;
+    display: flex;
+	flex-direction: column;
+
+
+}
+.spisok
+{
+    margin-left: 20px;
+}
+.kartinka
+{
+    width: 150px;
+    height: 200px;
+    
+    
+}
+.kartinka1
+{
+    width: 150px;
+    height: 200px;
+    
+    
+}
+.kartinka2
+{
+    width: 150px;
+    height: 200px;
+}
+.txt 
+{
+    font-size: 20px;
+    margin-left: 10px;
+    
+}
+.txt1
+{
+    font-size: 40px;
+    font-style: oblique;
+    line-height: 100px;
+    
+}
+.txt2
+{
+    text-align:left;
+
+}
+.txt3
+{
+
+    margin-left: 20px;
+}
+.forma
+{
+    margin-left: 10px;
+}
+.foot
+{
+    background-color: hotpink;
+    display:flex;
+    position: absolute;
+	flex-direction:column;
+    width: 100%;
+    flex-grow: 1;
+}
+body{background-color: aquamarine;}
+#credits
+{
+    margin-left: 10px;
+}
+#my 
+{
+margin-left: 10px;
+}
+.krid
+{
+    margin-left: 10px;
+}
+#btn {
+    color:blue;
+    
+}
+@media (orientation: landscape) {
+    /* При горизонтальной ориентации фоновым цветом сайта будет белый */
+        body {
+           background:  aquamarine;
+        }
+    }
+        
+    @media (orientation: portrait) {
+        /* При вертикальной ориентации фоновым цветом сайта будет чёрный */
+        body
+        {
+            background: rgb(202, 107, 228);
+        }
+        .kartinka1
+        {
+            width: 250px;  /*ширина*/
+            height: 300px; /*высота*/
+        }
+        .kartinka2
+        {
+            width: 250px;  /*ширина*/
+            height: 300px; /*высота*/
+        }
+
+    }
